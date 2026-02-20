@@ -1,37 +1,21 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Add team members and mentors hyperlinks in About Us section",
+  "title": "Update mentor name from Omkar to Onkar",
   "requirements": [
     {
       "id": "REQ-1",
-      "summary": "Add 'Our Team Members' hyperlink displaying six team member names in the About section",
+      "summary": "Change mentor name from 'Omkar sir' to 'Onkar sir' in the About component",
       "acceptanceCriteria": [
-        "A hyperlink appears in the About section with visible text containing all six team member names",
-        "The names are formatted as: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
-        "The hyperlink has appropriate styling consistent with the dental theme"
+        "The mentors section displays 'Onkar sir' instead of 'Omkar sir'",
+        "All other mentor names (Debadip sir, Hari sir) remain unchanged",
+        "The visual layout and styling of the mentors section remains intact"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/About.tsx",
           "operation": "modify",
-          "description": "Add a hyperlink labeled 'Our Team Members' that displays the names Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish. Place the hyperlink within the About section content area below the benefits list, styled consistently with the existing dental theme using appropriate text and hover colors from the theme palette. Use an anchor tag with href='#' since no navigation functionality is required per nonGoals."
-        }
-      ]
-    },
-    {
-      "id": "REQ-2",
-      "summary": "Add 'Our Mentors' hyperlink displaying three mentor names in the About section",
-      "acceptanceCriteria": [
-        "A hyperlink appears in the About section with visible text containing all three mentor names",
-        "The names are formatted as: Debadip sir, Omkar sir, and Hari sir",
-        "The hyperlink has appropriate styling consistent with the dental theme"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/About.tsx",
-          "operation": "modify",
-          "description": "Add a hyperlink labeled 'Our Mentors' that displays the names Debadip sir, Omkar sir, and Hari sir. Place the hyperlink adjacent to or below the 'Our Team Members' hyperlink within the About section content area, maintaining consistent styling with the dental theme and existing section structure. Use an anchor tag with href='#' since no navigation functionality is required per nonGoals."
+          "description": "Update the mentor name from 'Omkar sir' to 'Onkar sir' in the mentors list array. Locate the mentors data structure and change the name field for the mentor currently named 'Omkar sir' to 'Onkar sir'. Ensure no other mentor names or component structure are modified."
         }
       ]
     }

@@ -1,43 +1,22 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "Website project with About Us section featuring team members and mentors",
+  "summary": "New project",
   "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
   "existing_features": [
     {
-      "id": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-team-members-that-displays-the-names-pramit-aaryaman-vansh-khushi-radhika-and-kashish",
-      "title": "In the About Us section, add a hyperlink labeled 'Our Team Members' that displays the names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
+      "id": "feature-in-the-about-component-frontend-src-components-about-tsx-change-the-mentor-name-from-omkar-sir-to-onkar-sir-in-the-mentors-list",
+      "title": "In the About component (frontend/src/components/About.tsx), change the mentor name from 'Omkar sir' to 'Onkar sir' in the mentors list",
       "reqIds": [
         "REQ-1"
       ],
       "version": 1
-    },
-    {
-      "id": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-mentors-that-displays-the-names-debadip-sir-omkar-sir-and-hari-sir",
-      "title": "In the About Us section, add a hyperlink labeled 'Our Mentors' that displays the names: Debadip sir, Omkar sir, and Hari sir",
-      "reqIds": [
-        "REQ-2"
-      ],
-      "version": 1
     }
   ],
-  "new_feature_requests": [
-    {
-      "id": "AR-1",
-      "summary": "Add team members hyperlink in About Us (Pramit, Aaryaman, Vansh, Khushi, Radhika, Kashish)",
-      "reqIds": [],
-      "status": "pending"
-    },
-    {
-      "id": "AR-2",
-      "summary": "Add mentors hyperlink in About Us (Debadip sir, Omkar sir, Hari sir)",
-      "reqIds": [],
-      "status": "pending"
-    }
-  ],
-  "projectName": "Add team members and mentors hyperlinks in About Us section",
+  "new_feature_requests": [],
+  "projectName": "Update mentor name from Omkar to Onkar",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }

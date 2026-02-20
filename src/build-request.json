@@ -1,53 +1,32 @@
 {
   "kind": "build_request",
-  "title": "Add team members and mentors hyperlinks in About Us section",
+  "title": "Update mentor name from Omkar to Onkar",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "In the About Us section, add a hyperlink labeled 'Our Team Members' that displays the names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
+      "text": "In the About component (frontend/src/components/About.tsx), change the mentor name from 'Omkar sir' to 'Onkar sir' in the mentors list",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-latest"
+          "msg-7"
         ],
         "quotes": [
-          "our team members = Pramit , Aaryaman, Vansh , Khushi , Radhika  and Kashish"
+          "Change the name of \"Omkar sir\" to \"Onkar sir\""
         ]
       },
       "acceptanceCriteria": [
-        "A hyperlink appears in the About section with visible text containing all six team member names",
-        "The names are formatted as: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
-        "The hyperlink has appropriate styling consistent with the dental theme"
-      ]
-    },
-    {
-      "id": "REQ-2",
-      "text": "In the About Us section, add a hyperlink labeled 'Our Mentors' that displays the names: Debadip sir, Omkar sir, and Hari sir",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-latest"
-        ],
-        "quotes": [
-          "about our mentors = \" Debadip sir , Omkar sir , Hari sir\""
-        ]
-      },
-      "acceptanceCriteria": [
-        "A hyperlink appears in the About section with visible text containing all three mentor names",
-        "The names are formatted as: Debadip sir, Omkar sir, and Hari sir",
-        "The hyperlink has appropriate styling consistent with the dental theme"
+        "The mentors section displays 'Onkar sir' instead of 'Omkar sir'",
+        "All other mentor names (Debadip sir, Hari sir) remain unchanged",
+        "The visual layout and styling of the mentors section remains intact"
       ]
     }
   ],
-  "constraints": [
-    "Modify only the About.tsx component in the frontend",
-    "Maintain the existing About section structure and styling theme"
-  ],
+  "constraints": [],
   "nonGoals": [
-    "Adding actual link destinations or navigation functionality for the hyperlinks",
-    "Creating separate pages for team members or mentors",
-    "Adding images or additional details about team members or mentors"
+    "Changing any other mentor names",
+    "Modifying the About section structure or styling",
+    "Making changes to other components"
   ],
   "imageRequirements": {
     "required": [],

@@ -1,11 +1,11 @@
 {
   "frontend/src/App.tsx": "Main application component that orchestrates the layout with Header, Hero, Features, About, CallToAction, and Footer sections for the Cariesrisk AI promotional website.",
-  "frontend/src/components/Header.tsx": "Sticky header component displaying the Cariesrisk AI logo and navigation menu with smooth scrolling links to main sections.",
+  "frontend/src/components/Header.tsx": "Sticky header component with logo and navigation menu that uses JavaScript-based smooth scrolling with proper offset handling to navigate to Features, About Us (team section), and Contact sections.",
   "frontend/src/components/Hero.tsx": "Hero section with gradient background, compelling headline about pediatric dental disease prediction, CTA button linking to demo URL, and key statistics showcasing the app's impact.",
   "frontend/src/components/Features.tsx": "Features section displaying six cards highlighting AI-powered analysis, risk assessment, early detection, and preventive care benefits with dental-themed icons and images.",
-  "frontend/src/components/About.tsx": "About section explaining Cariesrisk AI's mission to transform pediatric dental care through early risk detection, with benefits list, team members and mentors hyperlinks, and decorative tooth character illustration.",
+  "frontend/src/components/About.tsx": "About section explaining Cariesrisk AI's mission with benefits list, team members and mentors (Onkar sir, Debadip sir, Hari sir) displayed as non-clickable text, and decorative tooth character illustration (with id=\"team\" for navigation targeting).",
   "frontend/src/components/CallToAction.tsx": "Call-to-action section encouraging dental professionals to request a demo via external link or contact sales, with supporting information about fast setup and HIPAA compliance.",
-  "frontend/src/components/Footer.tsx": "Footer component with logo, navigation links, company information, and attribution to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Footer.tsx": "Footer component with logo, navigation links, company information, and attribution to caffeine.ai with UTM tracking parameters; includes smooth scroll functionality for the \"About Us\" link to navigate to the team members section.",
   "frontend/src/index.css": "Global styles defining a mint green and white dental-themed color system using OKLCH values for both light and dark modes, with professional medical-grade aesthetics.",
   "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom font families (Inter and Poppins), enhanced shadows, and maintaining the dental-oriented color palette.",
   "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks to be implemented when backend methods are added."

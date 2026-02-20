@@ -1,11 +1,9 @@
 # Specification
 
 ## Summary
-**Goal:** Add team members and mentors information to the About Us section.
+**Goal:** Update mentor name from "Omkar sir" to "Onkar sir" in the About component.
 
 **Planned changes:**
-- Add a hyperlink displaying team member names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish
-- Add a hyperlink displaying mentor names: Debadip sir, Omkar sir, and Hari sir
-- Style both hyperlinks consistently with the existing dental theme
+- Change the mentor name from "Omkar sir" to "Onkar sir" in the mentors list within the About component (frontend/src/components/About.tsx)
 
-**User-visible outcome:** Users can see the team members and mentors listed in the About Us section as styled hyperlinks.
+**User-visible outcome:** The About section displays "Onkar sir" instead of "Omkar sir" in the mentors list, with all other content remaining unchanged.

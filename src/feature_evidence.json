@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-team-members-that-displays-the-names-pramit-aaryaman-vansh-khushi-radhika-and-kashish",
-      "featureTitle": "In the About Us section, add a hyperlink labeled 'Our Team Members' that displays the names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
+      "featureId": "feature-in-the-about-component-frontend-src-components-about-tsx-change-the-mentor-name-from-omkar-sir-to-onkar-sir-in-the-mentors-list",
+      "featureTitle": "In the About component (frontend/src/components/About.tsx), change the mentor name from 'Omkar sir' to 'Onkar sir' in the mentors list",
       "files": [
         "frontend/src/components/About.tsx"
       ],
@@ -16,24 +16,6 @@
       ],
       "testIds": [
         "REQ-1"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-mentors-that-displays-the-names-debadip-sir-omkar-sir-and-hari-sir",
-      "featureTitle": "In the About Us section, add a hyperlink labeled 'Our Mentors' that displays the names: Debadip sir, Omkar sir, and Hari sir",
-      "files": [
-        "frontend/src/components/About.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-2"
       ],
       "confidence": "high"
     }

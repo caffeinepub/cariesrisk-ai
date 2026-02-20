@@ -1,6 +1,21 @@
 import { Stethoscope } from 'lucide-react';
 
 export default function Header() {
+  const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+    e.preventDefault();
+    const element = document.getElementById(targetId);
+    if (element) {
+      const headerOffset = 80; // Account for sticky header height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
@@ -12,13 +27,25 @@ export default function Header() {
           />
         </div>
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a 
+            href="#features" 
+            onClick={(e) => handleScrollTo(e, 'features')}
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
             Features
           </a>
-          <a href="#about" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
-            About
+          <a 
+            href="#team" 
+            onClick={(e) => handleScrollTo(e, 'team')}
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
+            About Us
           </a>
-          <a href="#contact" className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+          <a 
+            href="#contact" 
+            onClick={(e) => handleScrollTo(e, 'contact')}
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
             Contact
           </a>
         </nav>

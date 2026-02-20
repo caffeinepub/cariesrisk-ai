@@ -38,23 +38,48 @@ export default function About() {
               ))}
             </div>
 
-            <div className="space-y-3 pt-6 border-t border-border">
-              <div>
-                <a 
-                  href="#" 
-                  className="text-base font-medium text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
-                >
-                  Our Team Members: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish
-                </a>
-              </div>
-              <div>
-                <a 
-                  href="#" 
-                  className="text-base font-medium text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
-                >
-                  Our Mentors: Debadip sir, Omkar sir, and Hari sir
-                </a>
-              </div>
+            <div id="team" className="space-y-3 pt-6 border-t border-border">
+              <p className="text-base text-foreground">
+                <span className="font-medium">Our Team Members:</span>{' '}
+                <span className="text-primary">
+                  Pramit
+                </span>
+                {', '}
+                <span className="text-primary">
+                  Aaryaman
+                </span>
+                {', '}
+                <span className="text-primary">
+                  Vansh
+                </span>
+                {', '}
+                <span className="text-primary">
+                  Khushi
+                </span>
+                {', '}
+                <span className="text-primary">
+                  Radhika
+                </span>
+                {', and '}
+                <span className="text-primary">
+                  Kashish
+                </span>
+              </p>
+              
+              <p className="text-base text-foreground">
+                <span className="font-medium">Our Mentors:</span>{' '}
+                <span className="text-primary">
+                  Onkar sir
+                </span>
+                {', '}
+                <span className="text-primary">
+                  Debadip sir
+                </span>
+                {', and '}
+                <span className="text-primary">
+                  Hari sir
+                </span>
+              </p>
             </div>
           </div>
           
