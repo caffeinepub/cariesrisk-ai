@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting two button link updates in CallToAction and Hero components to point to an ai.studio demo URL.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing a Cariesrisk AI promotional website with React components, styling, and configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with custom OKLCH color variables for light and dark themes, establishing a dental-themed design system.",
+  "frontend/index.html": "HTML entry point that loads the React application with title 'Cariesrisk AI' and mounts to root div.",
+  "frontend/src/App.tsx": "Root React component composing the full page layout with Header, Hero, Features, About, CallToAction, and Footer sections.",
+  "frontend/src/components/About.tsx": "About section component explaining Cariesrisk AI's mission with a benefits list and decorative tooth character image.",
+  "frontend/src/components/CallToAction.tsx": "CTA section with 'Request a Demo' button linking to ai.studio demo URL and 'Contact Sales' button, plus feature highlights.",
+  "frontend/src/components/Features.tsx": "Features section displaying six cards with icons and descriptions highlighting AI analysis, risk assessment, and preventive care capabilities.",
+  "frontend/src/components/Footer.tsx": "Footer component with logo, navigation links, company info, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/Header.tsx": "Sticky header with Cariesrisk AI logo, navigation menu for Features/About/Contact sections, and stethoscope icon.",
+  "frontend/src/components/Hero.tsx": "Hero section with headline, 'Get Started' button linking to ai.studio demo, statistics cards, and gradient background.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an authenticated or anonymous actor for backend communication, using Internet Identity and React Query with automatic invalidation of dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file reserved for future React Query hooks for backend integration; currently empty with no implemented queries.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a mint green and white dental-themed color palette for both light and dark modes, including sidebar, chart, and UI component colors.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClientProvider and InternetIdentityProvider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors using OKLCH color space, custom fonts (Inter, Poppins), border radius variables, shadows, and animation keyframes for accordions and other UI elements.",
+  "project_state.json": "Project metadata tracking two completed features that update demo and get-started button links to an AI Studio app URL, with no active feature requests or known issues."
+}

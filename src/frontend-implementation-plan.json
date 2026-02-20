@@ -1,0 +1,37 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update CTA button hyperlinks to demo URL",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Update the 'Request the demo' button in the CallToAction component to link to the demo URL",
+      "acceptanceCriteria": [
+        "The 'Request the demo' button navigates to the specified URL when clicked",
+        "The link opens in a new tab with appropriate security attributes"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/CallToAction.tsx",
+          "operation": "modify",
+          "description": "Update the 'Request the demo' button to use an anchor tag linking to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f with target='_blank' and rel='noopener noreferrer' for security"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Update the 'Get started' button in the Hero component to link to the demo URL",
+      "acceptanceCriteria": [
+        "The 'Get started' button navigates to the specified URL when clicked",
+        "The link opens in a new tab with appropriate security attributes"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Update the 'Get started' button to use an anchor tag linking to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f with target='_blank' and rel='noopener noreferrer' for security"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "build_request",
+  "title": "Update CTA button hyperlinks to demo URL",
+  "projectName": "Cariesrisk AI",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the 'Request the demo' button in the CallToAction component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "In \"Request the demo\" and \"Get started \", when someone clicks on it make sure the hyperlink is this https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The 'Request the demo' button navigates to the specified URL when clicked",
+        "The link opens in a new tab with appropriate security attributes"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Update the 'Get started' button in the Hero component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "In \"Request the demo\" and \"Get started \", when someone clicks on it make sure the hyperlink is this https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The 'Get started' button navigates to the specified URL when clicked",
+        "The link opens in a new tab with appropriate security attributes"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

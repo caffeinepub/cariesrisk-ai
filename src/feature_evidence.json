@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-request-the-demo-button-in-the-calltoaction-component-to-link-to-https-ai-studio-apps-29036910-44c0-41d1-86a5-c8a35a69379f",
+      "featureTitle": "Update the 'Request the demo' button in the CallToAction component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "files": [
+        "frontend/src/components/CallToAction.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-get-started-button-in-the-hero-component-to-link-to-https-ai-studio-apps-29036910-44c0-41d1-86a5-c8a35a69379f",
+      "featureTitle": "Update the 'Get started' button in the Hero component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
