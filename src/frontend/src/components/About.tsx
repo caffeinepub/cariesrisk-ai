@@ -29,13 +29,32 @@ export default function About() {
               and reduce the need for invasive treatments.
             </p>
             
-            <div className="space-y-4">
+            <div className="space-y-4 mb-8">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
                   <span className="text-base text-foreground">{benefit}</span>
                 </div>
               ))}
+            </div>
+
+            <div className="space-y-3 pt-6 border-t border-border">
+              <div>
+                <a 
+                  href="#" 
+                  className="text-base font-medium text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
+                >
+                  Our Team Members: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish
+                </a>
+              </div>
+              <div>
+                <a 
+                  href="#" 
+                  className="text-base font-medium text-primary hover:text-primary/80 transition-colors underline decoration-2 underline-offset-4"
+                >
+                  Our Mentors: Debadip sir, Omkar sir, and Hari sir
+                </a>
+              </div>
             </div>
           </div>
           

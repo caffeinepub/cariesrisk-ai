@@ -1,46 +1,54 @@
 {
   "kind": "build_request",
-  "title": "Update CTA button hyperlinks to demo URL",
-  "projectName": "Cariesrisk AI",
+  "title": "Add team members and mentors hyperlinks in About Us section",
   "priority": "normal",
   "requirements": [
     {
       "id": "REQ-1",
-      "text": "Update the 'Request the demo' button in the CallToAction component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "text": "In the About Us section, add a hyperlink labeled 'Our Team Members' that displays the names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "In \"Request the demo\" and \"Get started \", when someone clicks on it make sure the hyperlink is this https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f"
+          "our team members = Pramit , Aaryaman, Vansh , Khushi , Radhika  and Kashish"
         ]
       },
       "acceptanceCriteria": [
-        "The 'Request the demo' button navigates to the specified URL when clicked",
-        "The link opens in a new tab with appropriate security attributes"
+        "A hyperlink appears in the About section with visible text containing all six team member names",
+        "The names are formatted as: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
+        "The hyperlink has appropriate styling consistent with the dental theme"
       ]
     },
     {
       "id": "REQ-2",
-      "text": "Update the 'Get started' button in the Hero component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "text": "In the About Us section, add a hyperlink labeled 'Our Mentors' that displays the names: Debadip sir, Omkar sir, and Hari sir",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "In \"Request the demo\" and \"Get started \", when someone clicks on it make sure the hyperlink is this https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f"
+          "about our mentors = \" Debadip sir , Omkar sir , Hari sir\""
         ]
       },
       "acceptanceCriteria": [
-        "The 'Get started' button navigates to the specified URL when clicked",
-        "The link opens in a new tab with appropriate security attributes"
+        "A hyperlink appears in the About section with visible text containing all three mentor names",
+        "The names are formatted as: Debadip sir, Omkar sir, and Hari sir",
+        "The hyperlink has appropriate styling consistent with the dental theme"
       ]
     }
   ],
-  "constraints": [],
-  "nonGoals": [],
+  "constraints": [
+    "Modify only the About.tsx component in the frontend",
+    "Maintain the existing About section structure and styling theme"
+  ],
+  "nonGoals": [
+    "Adding actual link destinations or navigation functionality for the hyperlinks",
+    "Creating separate pages for team members or mentors",
+    "Adding images or additional details about team members or mentors"
+  ],
   "imageRequirements": {
     "required": [],
     "edits": []

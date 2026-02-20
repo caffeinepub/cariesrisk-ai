@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-the-request-the-demo-button-in-the-calltoaction-component-to-link-to-https-ai-studio-apps-29036910-44c0-41d1-86a5-c8a35a69379f",
-      "featureTitle": "Update the 'Request the demo' button in the CallToAction component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "featureId": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-team-members-that-displays-the-names-pramit-aaryaman-vansh-khushi-radhika-and-kashish",
+      "featureTitle": "In the About Us section, add a hyperlink labeled 'Our Team Members' that displays the names: Pramit, Aaryaman, Vansh, Khushi, Radhika, and Kashish",
       "files": [
-        "frontend/src/components/CallToAction.tsx"
+        "frontend/src/components/About.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -20,10 +20,10 @@
       "confidence": "high"
     },
     {
-      "featureId": "feature-update-the-get-started-button-in-the-hero-component-to-link-to-https-ai-studio-apps-29036910-44c0-41d1-86a5-c8a35a69379f",
-      "featureTitle": "Update the 'Get started' button in the Hero component to link to https://ai.studio/apps/29036910-44c0-41d1-86a5-c8a35a69379f",
+      "featureId": "feature-in-the-about-us-section-add-a-hyperlink-labeled-our-mentors-that-displays-the-names-debadip-sir-omkar-sir-and-hari-sir",
+      "featureTitle": "In the About Us section, add a hyperlink labeled 'Our Mentors' that displays the names: Debadip sir, Omkar sir, and Hari sir",
       "files": [
-        "frontend/src/components/Hero.tsx"
+        "frontend/src/components/About.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",

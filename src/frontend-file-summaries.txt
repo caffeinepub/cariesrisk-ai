@@ -3,7 +3,7 @@
   "frontend/src/components/Header.tsx": "Sticky header component displaying the Cariesrisk AI logo and navigation menu with smooth scrolling links to main sections.",
   "frontend/src/components/Hero.tsx": "Hero section with gradient background, compelling headline about pediatric dental disease prediction, CTA button linking to demo URL, and key statistics showcasing the app's impact.",
   "frontend/src/components/Features.tsx": "Features section displaying six cards highlighting AI-powered analysis, risk assessment, early detection, and preventive care benefits with dental-themed icons and images.",
-  "frontend/src/components/About.tsx": "About section explaining Cariesrisk AI's mission to transform pediatric dental care through early risk detection, with benefits list and decorative tooth character illustration.",
+  "frontend/src/components/About.tsx": "About section explaining Cariesrisk AI's mission to transform pediatric dental care through early risk detection, with benefits list, team members and mentors hyperlinks, and decorative tooth character illustration.",
   "frontend/src/components/CallToAction.tsx": "Call-to-action section encouraging dental professionals to request a demo via external link or contact sales, with supporting information about fast setup and HIPAA compliance.",
   "frontend/src/components/Footer.tsx": "Footer component with logo, navigation links, company information, and attribution to caffeine.ai with UTM tracking parameters.",
   "frontend/src/index.css": "Global styles defining a mint green and white dental-themed color system using OKLCH values for both light and dark modes, with professional medical-grade aesthetics.",
